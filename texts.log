@@ -1,0 +1,28 @@
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3692
+DEBUG:prawcore:Response: 200 (3692 bytes)
+INFO:root:Sending text about [PRE-BUILT] CYBERPOWERPC Gamer Panzer PVP3020LQ Desktop Gaming PC (Intel i7-7700K 4.2GHz, NVIDIA GTX 1080 8GB, 32GB DDR4, 2TB 7200RPM HDD, 256GB NVMe, Liquid Cooled) - $1,699 ($1,899-$200 Prime Day Deal, $1,760.99 w/o Prime)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC774ef495e820dce533329a18bd9a1871/Messages.json HTTP/1.1" 201 1026
+INFO:root:Sending text about [HDD] Seagate BarraCuda ST3000DM008 3TB 64MB Cache SATA 6.0Gb/s 3.5" - $74.99 ( $83.72 - $8.72 w/EMCRHBB23)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC774ef495e820dce533329a18bd9a1871/Messages.json HTTP/1.1" 201 910
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'limit': 10, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?limit=10&raw_json=1 HTTP/1.1" 200 3680
+DEBUG:prawcore:Response: 200 (3680 bytes)
+INFO:root:Sending text about [PRE-BUILT] CYBERPOWERPC Gamer Panzer PVP3020LQ Desktop Gaming PC (Intel i7-7700K 4.2GHz, NVIDIA GTX 1080 8GB, 32GB DDR4, 2TB 7200RPM HDD, 256GB NVMe, Liquid Cooled) - $1,699 ($1,899-$200 Prime Day Deal, $1,760.99 w/o Prime)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC774ef495e820dce533329a18bd9a1871/Messages.json HTTP/1.1" 201 1026
+INFO:root:Sending text about [HDD] Seagate BarraCuda ST3000DM008 3TB 64MB Cache SATA 6.0Gb/s 3.5" - $74.99 ( $83.72 - $8.72 w/EMCRHBB23)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC774ef495e820dce533329a18bd9a1871/Messages.json HTTP/1.1" 201 910
