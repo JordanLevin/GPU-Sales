@@ -26,3 +26,179 @@ DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accoun
 INFO:root:Sending text about [HDD] Seagate BarraCuda ST3000DM008 3TB 64MB Cache SATA 6.0Gb/s 3.5" - $74.99 ( $83.72 - $8.72 w/EMCRHBB23)
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
 DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC774ef495e820dce533329a18bd9a1871/Messages.json HTTP/1.1" 201 910
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3598
+DEBUG:prawcore:Response: 200 (3598 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3592
+DEBUG:prawcore:Response: 200 (3592 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3595
+DEBUG:prawcore:Response: 200 (3595 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3601
+DEBUG:prawcore:Response: 200 (3601 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3584
+DEBUG:prawcore:Response: 200 (3584 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3684
+DEBUG:prawcore:Response: 200 (3684 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3683
+DEBUG:prawcore:Response: 200 (3683 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3690
+DEBUG:prawcore:Response: 200 (3690 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3683
+DEBUG:prawcore:Response: 200 (3683 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3678
+DEBUG:prawcore:Response: 200 (3678 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3689
+DEBUG:prawcore:Response: 200 (3689 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3681
+DEBUG:prawcore:Response: 200 (3681 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3682
+DEBUG:prawcore:Response: 200 (3682 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3687
+DEBUG:prawcore:Response: 200 (3687 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3683
+DEBUG:prawcore:Response: 200 (3683 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3689
+DEBUG:prawcore:Response: 200 (3689 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3689
+DEBUG:prawcore:Response: 200 (3689 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3688
+DEBUG:prawcore:Response: 200 (3688 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3689
+DEBUG:prawcore:Response: 200 (3689 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3686
+DEBUG:prawcore:Response: 200 (3686 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3697
+DEBUG:prawcore:Response: 200 (3697 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3690
+DEBUG:prawcore:Response: 200 (3690 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3700
+DEBUG:prawcore:Response: 200 (3700 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3693
+DEBUG:prawcore:Response: 200 (3693 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3693
+DEBUG:prawcore:Response: 200 (3693 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3698
+DEBUG:prawcore:Response: 200 (3698 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3699
+DEBUG:prawcore:Response: 200 (3699 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3695
+DEBUG:prawcore:Response: 200 (3695 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3689
+DEBUG:prawcore:Response: 200 (3689 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3684
+DEBUG:prawcore:Response: 200 (3684 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3694
+DEBUG:prawcore:Response: 200 (3694 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3684
+DEBUG:prawcore:Response: 200 (3684 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3679
+DEBUG:prawcore:Response: 200 (3679 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/buildapcsales/new
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'raw_json': 1, 'limit': 10}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/buildapcsales/new?raw_json=1&limit=10 HTTP/1.1" 200 3684
+DEBUG:prawcore:Response: 200 (3684 bytes)
